@@ -1,8 +1,9 @@
 import styled from "styled-components";
+import {Link} from 'react-router-dom'
 
 export const HeaderEl = styled.header`
   box-shadow: var(--shadow);
-  background-color: var(--color--ui-base);
+  background-color: var(--color-ui-base);
 `
 
 export const Wrapper = styled.div`
@@ -12,8 +13,8 @@ export const Wrapper = styled.div`
   padding: 2rem 0;
 `
 
-export const Title = styled.a.attrs({
-    href: '/'
+export const Title = styled(Link).attrs({
+    to: '/'
 })`
   color: var(--color-text);
   font-size: var(--fs-sm);
