@@ -4,7 +4,7 @@ import {HeaderEl,Wrapper,Title,ModeSwitcher} from './styles'
 import { IoMoon,IoMoonOutline } from "react-icons/io5";
 
 
-const Header: React.FC = () => {
+export const Header: React.FC = () => {
     const [theme, setTheme] = useState("light")
 
     const toggleTheme = () => setTheme(theme => theme === "light" ? "dark" : "light")
@@ -27,5 +27,3 @@ const Header: React.FC = () => {
         </HeaderEl>
     );
 };
-
-export default Header
