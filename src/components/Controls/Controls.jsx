@@ -41,7 +41,7 @@ export const Controls = ({onSearch}) => {
                 isClearable
                 isSearchable={false}
                 value={region}
-                onChange={setRegion} //TODO ---> Problems with onChange and typescript (in future I need to fix this)
+                onChange={setRegion} //TODO ---> Problems with onChange and typescript (In the future I need to fix this)
             />
         </Wrapper>
     );

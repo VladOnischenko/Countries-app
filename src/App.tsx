@@ -2,14 +2,14 @@ import React, {useState} from 'react';
 import './index.css';
 import {Route, Routes} from 'react-router-dom'
 import {Header} from "./components/Header/Header";
-import {Main} from "./components/Main";
+import {Main} from "./components/Main/Main";
 import {Home} from './pages/Home';
 import {Details} from './pages/Details';
 import {NotFound} from './pages/NotFound';
 
 const App: React.FC = () => {
     const [countries, setCountries] = useState([])
-    console.log("countries", countries)
+
   return (
     <>
       <Header />

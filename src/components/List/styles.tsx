@@ -1,7 +1,6 @@
-import React from 'react';
-import styled from 'styled-components'
+import styled from "styled-components";
 
-const Wrapper = styled.section`
+export const Wrapper = styled.section`
     width: 100%;
   padding: 2rem 0;
   
@@ -20,12 +19,3 @@ const Wrapper = styled.section`
     gap: 4rem;
   }
 `
-
-export const List = ({children}: any): JSX.Element => {
-    console.log("children", children);
-    return (
-        <Wrapper>
-            {children}
-        </Wrapper>
-    );
-};

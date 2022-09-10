@@ -2,8 +2,8 @@ import React, {useEffect, useState} from 'react';
 import axios from 'axios';
 import {ALL_COUNTRIES} from "../config";
 import {Controls} from "../components/Controls/Controls";
-import {List} from "../components/List";
-import {Card} from "../components/Card";
+import {List} from "../components/List/List";
+import {Card} from "../components/Card/Card";
 import {useNavigate} from "react-router-dom";
 
 interface Props {
