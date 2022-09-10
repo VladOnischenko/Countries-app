@@ -7,7 +7,7 @@ import { IoMoon,IoMoonOutline } from "react-icons/io5";
 export const Header: React.FC = () => {
     const [theme, setTheme] = useState("light")
 
-    const toggleTheme = () => setTheme(theme => theme === "light" ? "dark" : "light")
+    const toggleTheme = (): void => setTheme(theme => theme === "light" ? "dark" : "light")
 
     useEffect(() =>{
         document.body.setAttribute("data-theme", theme)
