@@ -35,6 +35,11 @@ export const Home = ({countries,setCountries}: Props) => {
                 .then(({data}) => setCountries(data))
     },[])
 
+    useEffect(() => {
+        // @ts-ignore
+        handleSearch()
+    },[countries])
+
     return (
         <>
             <Controls onSearch={handleSearch}/>

@@ -9,7 +9,7 @@ import {NotFound} from './pages/NotFound';
 
 const App: React.FC = () => {
     const [countries, setCountries] = useState([])
-
+    console.log("countries", countries)
   return (
     <>
       <Header />

@@ -22,14 +22,14 @@ body[data-theme="dark"]{
   --color-bg: hsl(207, 26%, 17%);
   --color-ui-base:hsl(209, 23%, 22%);
 
-  --shadow: rgba(245,245,245,0.2) 0 0 8px;
+  --shadow: rgba(245,245,245,0.3) 0 0 12px;
 }
 body[data-theme="light"]{
   --color-text:hsl(200, 15%, 8%);
   --color-bg: hsl(0, 0%, 98%);
   --color-ui-base:hsl(0, 0%, 100%);
 
-  --shadow: rgba(149,157,165,0.2) 0 8 24px;
+  --shadow: rgba(95, 98, 100, 0.3) 0 8px 24px;
 }
 
 body {
