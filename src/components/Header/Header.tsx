@@ -17,7 +17,7 @@ export const Header: React.FC = () => {
         <HeaderEl>
             <Container>
                 <Wrapper>
-                    <Title>Where is thr world?</Title>
+                    <Title>Where is the world?</Title>
                     <ModeSwitcher onClick={toggleTheme}>
                         { theme === "light" ? (<IoMoon/>) : (<IoMoonOutline/>)}
                         <span>{theme} Theme</span>
